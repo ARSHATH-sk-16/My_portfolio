@@ -77,8 +77,8 @@ const SkillsSection = () => {
           icon: <SiNextdotjs className="w-4 h-4 text-white" />,
         },
         {
-          name: "TypeScript",
-          icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
+          name: "JavaScript",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#F7DF1E]" />,
         },
         {
           name: "Tailwind CSS",
@@ -104,12 +104,12 @@ const SkillsSection = () => {
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
         {
-          name: "Python",
-          icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+          name: "Java",
+          icon: <Code2 className="w-4 h-4 text-[#F89820]" />,
         },
         {
-          name: "PostgreSQL",
-          icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
+          name: "MySQL",
+          icon: <Database className="w-4 h-4 text-[#00758F]" />,
         },
         {
           name: "MongoDB",
@@ -119,10 +119,7 @@ const SkillsSection = () => {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
+        
       ],
     },
     {
@@ -173,7 +170,6 @@ const SkillsSection = () => {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
         },
-        { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
         {
           name: "Webpack",
           icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,

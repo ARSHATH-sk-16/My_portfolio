@@ -2,47 +2,39 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
-
+import ArshtexImg from "@/assets/images/arshtex.png";
+import PortfolioImg from "@/assets/images/portfolio.png";
+import QupidImg from "@/assets/images/qupid.png";
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "ARSHTEX - Freelance Software Agency",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
-    color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+      "A modern business website built for ARSHTEX to showcase professional software development services. Designed with React, Vite, and Tailwind CSS, featuring a clean UI, responsive layouts, and an engaging user experience for startups, businesses, and individual clients.",
+    src: "arshtex.jpg",
+    link: ArshtexImg,
+    color: "#06B6D4",
+    githubLink: "https://github.com/ARSHATH-sk-16/arshtex",
+    liveLink: "https://arshtex.netlify.app",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Personal Portfolio Website",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-    color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+      "A premium developer portfolio created using React, Vite, Tailwind CSS, and Framer Motion. It showcases my projects, technical skills, education, and journey as a software developer with smooth animations and a modern, interactive design.",
+    src: "portfoilo.png",
+    link: PortfolioImg,
+    color: "#8B5CF6",
+    githubLink: "https://github.com/yourusername/portfolio",
+    liveLink: "https://your-portfolio-link.com",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "QUPID - AI Powered Social Platform",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+      "QUPID is an AI-powered social platform designed to create meaningful digital connections through intelligent conversations and modern communication features. Built with React, Node.js, Express, MongoDB, and AI technologies, the platform focuses on delivering a fast, secure, and engaging user experience.",
+    src: "qupid.jpg",
+    link: QupidImg,
+    color: "#EC4899",
+    githubLink: "https://github.com/ARSHATH-sk-16/QUPID",
+    liveLink: "https://qupid-1.onrender.com/",
   },
 ];
 

@@ -14,28 +14,45 @@ const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const educationData = [
-    {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
-      description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
-    },
-    {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
-      description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
-    },
-  ];
-
+  {
+    degree: "Bachelor of Engineering (B.E.) - Computer Science and Engineering",
+    school: "J.J. College of Engineering and Technology",
+    mascot: "🎓",
+    year: "2023 - 2027",
+    achievements: [
+      "Current CGPA: 7.94",
+      "Anna University - Regulation 2021",
+    ],
+    skills: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "JavaScript",
+      "MySQL",
+      "Data Structures & Algorithms",
+    ],
+    description:
+      "Currently pursuing a Bachelor's degree in Computer Science and Engineering while building a strong foundation in software development. Alongside academics, I actively develop full-stack web applications, strengthen my problem-solving skills, and explore modern technologies to prepare for a career as a Full-Stack Java Developer.",
+  },
+  {
+    degree: "Higher Secondary Education (HSC)",
+    school: "RSK Higher Secondary School",
+    mascot: "📘",
+    year: "2021 - 2023",
+    achievements: [
+      "Higher Secondary Certificate",
+      "Computer Science Stream",
+    ],
+    skills: [
+      "Computer Science",
+      "Mathematics",
+      "Physics",
+      "Analytical Thinking",
+    ],
+    description:
+      "Completed higher secondary education with a specialization in Computer Science, where I developed a strong interest in programming, logical thinking, and technology. This experience laid the foundation for my journey into software engineering and modern web development.",
+  },
+];
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

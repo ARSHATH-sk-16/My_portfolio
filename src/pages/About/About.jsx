@@ -1,5 +1,5 @@
-import HeroImg from "@/assets/images/hero.jpg";
-import OlovaLogo from "@/assets/images/olova.png";
+import HeroImg from "@/assets/hero.jpg";
+
 
 export default function About() {
   return (
@@ -21,52 +21,36 @@ export default function About() {
                 />
               </div>
             </div>
-
             <div className="relative space-y-4">
-              <p className="text-white">
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
-                specializing in creating innovative web solutions and
-                user-friendly interfaces.{" "}
-                <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
-                </span>
-                , I'm dedicated to simplifying development workflows.
-              </p>
-              <p className="text-white">
-                My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
-                seamless, robust web applications.
-              </p>
+                    <p className="text-white">
+                      Hello! I'm <span className="font-bold text-white">Arshath</span>, a
+                      passionate software developer and Computer Science student who enjoys
+                      building modern, responsive, and user-friendly web applications. I
+                      specialize in Java, Spring Boot, React, and JavaScript, with a strong focus
+                      on creating clean, efficient, and scalable solutions.
+                    </p>
 
-              <div className="pt-6">
-                <blockquote className="border-l-4 border-gray-300 pl-4">
-                  <p className="text-white">
-                    I'm a lifelong learner and innovator, driven by a desire to
-                    contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
-                  </p>
+                    <p className="text-white">
+                      As the founder of <span className="font-bold text-white">ARSHTEX</span>, I
+                      enjoy turning ideas into real-world digital products. From portfolio
+                      websites to full-stack applications, I continuously explore new
+                      technologies, improve my development skills, and build projects that solve
+                      practical problems while delivering great user experiences.
+                    </p>
 
-                  <div className="mt-6 space-y-3">
-                    <cite className="block font-medium text-white">
-                      Nazmul Hossain, Creator of
-                    </cite>
-                    <div className="flex items-center gap-2">
-                      <img
-                        className="h-5 w-fit"
-                        src={OlovaLogo}
-                        alt="Olova Logo"
-                        height="20"
-                        width="auto"
-                      />
-                      <span className="text-white">OlovaJS</span>
+                    <div className="pt-6">
+                      <blockquote className="border-l-4 border-gray-300 pl-4">
+                        <p className="text-white">
+                          I believe that learning never stops. Every project is an opportunity to
+                          grow, experiment, and create something meaningful. My goal is to become
+                          a skilled Full-Stack Java Developer while contributing innovative
+                          solutions that help businesses and inspire fellow developers.
+                        </p>
+                      </blockquote>
                     </div>
                   </div>
-                </blockquote>
-              </div>
-            </div>
+
+            
           </div>
         </div>
       </section>

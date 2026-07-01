@@ -53,31 +53,31 @@ const ExperienceCard = ({
 
 const ExperienceSection = () => {
   const experiences = [
-    {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
-      description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
-    },
-    {
-      icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
-      description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
-    },
-    {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
-      description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
-    },
-  ];
+  {
+    icon: Binary,
+    title: "Computer Science Student",
+    company: "JJ College of Engineering & Technology",
+    period: "2023 - Present",
+    description:
+      "Pursuing a Bachelor's degree in Computer Science while strengthening my foundation in Java, Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, and Software Engineering through academic learning and practical projects.",
+  },
+  {
+    icon: Cpu,
+    title: "Full-Stack Developer & Founder",
+    company: "ARSHTEX",
+    period: "2026 - Present",
+    description:
+      "Founded ARSHTEX to build modern websites and web applications for individuals, startups, and businesses. Focused on creating responsive user interfaces, scalable applications, and delivering real-world digital solutions using React, JavaScript, and modern web technologies.",
+  },
+  {
+    icon: Code2,
+    title: "Java & Spring Boot Developer",
+    company: "Personal Projects",
+    period: "2026 - Present",
+    description:
+      "Developing full-stack applications with Java and Spring Boot while continuously improving backend development skills. Building portfolio projects, REST APIs, and modern web applications with React, Vite, Tailwind CSS, and MySQL to prepare for a career as a Full-Stack Java Developer.",
+  },
+];
 
   return (
     <>
