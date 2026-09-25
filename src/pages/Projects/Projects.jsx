@@ -36,6 +36,7 @@ const projects = [
     githubLink: "https://github.com/ARSHATH-sk-16/QUPID",
     liveLink: "https://qupid-1.onrender.com/",
   },
+  
 ];
 
 export default function Projects() {
